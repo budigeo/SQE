@@ -12,6 +12,15 @@ import static io.restassured.RestAssured.given;
 
 public class LoginTests {
 
+    //Verify Response Code
+    @Test
+    public void Login(){
+        Response response = EndPointsURL.getLogin();
+        response.then().log().all();
+        Assert.assertEquals(response.statusCode(),200);
+    }
+
+    //Verify Get Token
     @Test
     public void Logins(){
         Map<String, Object> jsonMap = new HashMap<>();
@@ -27,4 +36,5 @@ public class LoginTests {
 
         Assert.assertNotNull(jsonMap);
     }
+
 }
