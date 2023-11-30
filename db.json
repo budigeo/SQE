@@ -1,0 +1,98 @@
+{
+  "checkout_transaction" : {
+    "transaction_data": {
+      "amount": 13780000,
+      "items": [
+        {
+          "id":"400",
+          "name":"Laptop Azuz",
+          "price": 12000000,
+          "quantity":1
+        },
+        {
+          "id":"557",
+          "name":"Mouse Logitek",
+          "price": 500000,
+          "quantity":2
+        },
+        {
+          "id":"456",
+          "name":"Headset Logitek",
+          "price": 250000,
+          "quantity":3
+        },
+        {
+          "id":"600",
+          "name":"Charger iPho",
+          "price": 30000,
+          "quantity":1
+        }
+      ]
+    },
+    "seller_data":[
+      {
+        "id":"SELLER001",
+        "name":"TEKNIK BERSAMA",
+        "url": "https://kredivocorp.com/"
+      }
+    ],
+    "customer_data": {
+      "name": "Albert Seit",
+      "email": "albert@gmail.com",
+      "phone":"081111111111"
+    },
+    "shipping_address_data": {
+      "name":"Albert seit",
+      "address":"Jalan Teknologi Indonesia No. 25",
+      "phone":"081111111111"
+    }
+  },
+  "user_history": [
+    {
+      "id": 1,
+      "full_name": "Gojo Satoru",
+      "last_login": 1654497759000,
+      "status" : "ACTIVE"
+    },
+    {
+      "id": 2,
+      "full_name": "Ichigo",
+      "last_login": 1686033759000,
+      "status" : "ACTIVE"
+    },
+    {
+      "id": 3,
+      "full_name": "Itadori",
+      "last_login": 1583476959000,
+      "status" : "ACTIVE"
+    },
+    {
+      "id": 4,
+      "full_name": "Eren",
+      "last_login": 1688184610000,
+      "status" : "INACTIVE"
+    }
+  ],
+  "palindrome": [
+    {
+      "id": 1,
+      "word": "Did Hannah see bees? Hannah did."
+    },
+    {
+      "id": 2,
+      "word": "Sit on a potato pan, Otis."
+    },
+    {
+      "id": 3,
+      "word": "123000000321"
+    },
+    {
+      "id": 4,
+      "word": "katak katak kata"
+    },
+    {
+      "id": 5,
+      "word": "Kasur Kodok Rusak"
+    }
+  ]
+}
